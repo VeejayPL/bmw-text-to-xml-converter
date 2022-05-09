@@ -1,12 +1,12 @@
 # Text to XML converter
 
+To convert codes from text to XML format please paste them in the input field and hit it the "Convert" button.
+The converted codes will be displayed in the field.
+To repeat convertion with another text, simply paste it over the current content.
+
+You can find below an example of input and the output.
+
 ## Input
-VIN: WBY1Z21040VZ60041
-BMW i i3 I01 i3 60Ah IB1 2014-02-03 
-Lakier: B81 Kolor Poszycia: BHGI Nadwozie: Mega City Vehicle / Wersje katalogowe: ECE 
-Typ: 1Z21 / Rodzaj przekładni: Automatyczna 
-Uk.kier.: Lewostronny / Data produkcji: : 2014-02-03 
-Lakier: andresit-silber met./BMW i blau / Poszycie: Materiał Neutronic/aragaz-grau
 
 Wyposażenie Standardowe
 Kod
@@ -100,17 +100,8 @@ Lust. wew./zew. z automatyką przyciemn.
 Numer podwozia widoczny od zewnątrz
 
 ## Output
-<faList>
-<id name="">
-<comment/>
-<ns1:fa xmlns:ns1="http://bmw.com/2005/psdz.data.fa">
-<ns1:header createdBy="" date="2021-04-05+02:00" time="20:45:25" vinLong="WBY1Z21040VZ60041"/>
-<ns1:standardFA colourCode="0B81" faVersion="3" fabricCode="BHGI" series="I001" timeCriteria="0320" typeKey="1Z21">
-<ns1:eCodes>
-<ns1:eCode>A020</ns1:eCode>
-<ns1:eCode>POLS</ns1:eCode>
-</ns1:eCodes>
-<ns1:saCodes>
+
+<!-- <ns1:saCodes>
 <ns1:saCode>230</ns1:saCode>
 <ns1:saCode>249</ns1:saCode>
 <ns1:saCode>2G6</ns1:saCode>
@@ -150,9 +141,4 @@ Numer podwozia widoczny od zewnątrz
 <ns1:saCode>8R9</ns1:saCode>
 <ns1:saCode>8SM</ns1:saCode>
 <ns1:saCode>8TG</ns1:saCode>
-</ns1:saCodes>
-<ns1:hoCodes/>
-</ns1:standardFA>
-</ns1:fa>
-</id>
-</faList>
+</ns1:saCodes> -->
