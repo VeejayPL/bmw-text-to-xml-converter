@@ -11,14 +11,12 @@ function getValue(elem) {
 }
 
 // Filter array for strings starting from 0 and with length of four characters
+// then remove 0 from each element and sort the array
 let codes;
 function filterText(text) {
-  return (codes = text.filter(
-    (element) => element.length === 4 && element[0] == 0
-  ));
-}
-// For each element remove the first 0
-function removeZero(codes) {
-  const codes2 = codes.map((element) => element.substr(1)).sort();
-  console.table(codes2);
+  codes = text
+    .filter((element) => element.length === 4 && element[0] == 0)
+    .map((element) => element.substr(1))
+    .sort();
+  return codes;
 }
