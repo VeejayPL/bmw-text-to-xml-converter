@@ -20,3 +20,10 @@ function filterText(text) {
     .sort();
   return codes;
 }
+
+// Add XML tags to codes
+let xml;
+function addXmlTag(codes) {
+  xml = codes.map((element) => `<ns1:saCode>${element}</ns1:saCode>`);
+  return xml;
+}
