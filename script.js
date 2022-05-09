@@ -4,12 +4,21 @@ function auto_height(elem) {
   elem.style.height = elem.scrollHeight + "px";
 }
 
-// Get pasted text and store it in variable as string
+// Get pasted text and store it as an array
 let text;
 function getValue(elem) {
-  return (text = document.querySelector("#textarea").value);
+  return (text = document.querySelector("#textarea").value.split("\n"));
 }
 
-// Convert text to array
-
 // Filter array for strings starting from 0 and with length of four characters
+let codes;
+function filterText(text) {
+  return (codes = text.filter(
+    (element) => element.length === 4 && element[0] == 0
+  ));
+}
+// For each element remove the first 0
+function removeZero(codes) {
+  const codes2 = codes.map((element) => element.substr(1)).sort();
+  console.table(codes2);
+}
