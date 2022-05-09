@@ -11,10 +11,10 @@ You can find below an example of input and the output.
 Wyposażenie Standardowe
 Kod
 Nazwa
-0548
-Licznik kilometrów
-Wyposażenie Dodatkowe
-Kod
+0548 \n
+Licznik kilometrów \n
+Wyposażenie Dodatkowe \n
+Kod \n
 Nazwa
 0230
 Zakres dodatkowy, charakteryst. dla UE
