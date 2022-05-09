@@ -101,7 +101,7 @@ Numer podwozia widoczny od zewnątrz
 
 ## Output
 
-<!-- <ns1:saCodes>
+<ns1:saCodes>
 <ns1:saCode>230</ns1:saCode>
 <ns1:saCode>249</ns1:saCode>
 <ns1:saCode>2G6</ns1:saCode>
@@ -141,4 +141,4 @@ Numer podwozia widoczny od zewnątrz
 <ns1:saCode>8R9</ns1:saCode>
 <ns1:saCode>8SM</ns1:saCode>
 <ns1:saCode>8TG</ns1:saCode>
-</ns1:saCodes> -->
+</ns1:saCodes>
