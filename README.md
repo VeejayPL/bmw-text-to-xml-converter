@@ -4,6 +4,8 @@ To convert codes from text to XML format please paste them in the input field an
 The converted codes will be displayed in the field.
 To repeat convertion with another text, simply paste it over the current content.
 
+[Converter preview](https://veejaypl.github.io/bmw-text-to-xml-converter/?fbclid=IwAR3T6SIXt6KMlm-fCNX9M5S47JchaWKwydu0G4wlUDqJWHP8ShlAma9ksCA)
+
 You can find below an example of input and the output.
 
 ## Input
