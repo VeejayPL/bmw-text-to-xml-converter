@@ -1,8 +1,12 @@
 # Text to XML converter
 
+## Description
+
 This program extrudes the three digit code from text and wraps it within a XML tag. Works with multiple lines.
 
 You can find below an example of input and the output as well as instructions on how to use the converter.
+
+[Live demo](https://veejaypl.github.io/bmw-text-to-xml-converter/)
 
 ## Input
 
