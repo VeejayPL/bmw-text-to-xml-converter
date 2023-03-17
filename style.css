@@ -8,10 +8,10 @@ body {
   align-items: center;
   justify-content: center;
 }
-button {
+.convert-btn {
   margin: 2rem 0 0.5rem 0;
   padding: 10px 20px;
-  border-radius: 10px;
+  border-radius: 6px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@ button {
   font: bold 1.5em sans-serif;
   color: #ffffff;
 }
-label {
+.label {
   font-size: 24px;
 }
 .auto-height {
@@ -27,11 +27,12 @@ label {
   margin: 0.5rem;
   padding: 0.5rem;
   border: solid 1px;
+  border-radius: 6px;
   font-size: 24px;
 }
 
 @media (max-width: 1000px) {
-  button {
+  .convert-btn {
     padding: 5px 10px;
     font: bold 1.3em sans-serif;
   }
@@ -39,12 +40,12 @@ label {
     width: 80%;
     font-size: 16px;
   }
-  label {
+  .label {
     font-size: 20px;
   }
 }
 @media (max-width: 600px) {
-  label {
+  .label {
     font-size: 12px;
     font-weight: bold;
   }
