@@ -9,23 +9,25 @@
     <script src="./script.js" defer></script>
   </head>
   <body>
-    <header>
+    <header class="site-title">
       <h1>BMW Code extractor</h1>
       <p>
         Extract your three digits from text file and wrap them with XML tags
       </p>
     </header>
-    <button id="button" class="convert-btn">Convert</button>
-    <label for="textarea" class="label"
-      >Please paste your text in the area below and hit the "Convert"
-      button</label
-    >
-    <textarea
-      id="textarea"
-      name="codes"
-      rows="1"
-      class="auto-height"
-      oninput="autoHeight(this); getValue(this)"
-    ></textarea>
+    <main class="wrapper">
+      <button id="button" class="convert-btn">Convert</button>
+      <label for="textarea" class="label"
+        >Please paste your text in the area below and hit the "Convert"
+        button</label
+      >
+      <textarea
+        id="textarea"
+        name="codes"
+        rows="1"
+        class="auto-height"
+        oninput="autoHeight(this); getValue(this)"
+      ></textarea>
+    </main>
   </body>
 </html>
