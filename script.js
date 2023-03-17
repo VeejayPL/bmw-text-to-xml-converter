@@ -32,7 +32,7 @@ function addXmlTag(codes) {
   return xml;
 }
 // Assign functions to button and append converted text to textarea
-const button = document.querySelector("#convert");
+const button = document.querySelector("#button");
 button.addEventListener("click", () => {
   filterText(text);
   document.querySelector("#textarea").value = `<ns1:saCodes>\n${addXmlTag(
