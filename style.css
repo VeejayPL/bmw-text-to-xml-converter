@@ -22,7 +22,7 @@ button {
 label {
   font-size: 24px;
 }
-.auto_height {
+.auto-height {
   width: 60%;
   margin: 0.5rem;
   padding: 0.5rem;
@@ -35,7 +35,7 @@ label {
     padding: 5px 10px;
     font: bold 1.3em sans-serif;
   }
-  .auto_height {
+  .auto-height {
     width: 80%;
     font-size: 16px;
   }
