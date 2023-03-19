@@ -81,16 +81,3 @@ body {
 .auto-height:focus {
   outline: 2px solid var(--text);
 }
-
-.wavy {
-  --mask: radial-gradient(
-        223.61px at 50% calc(100% - 300px),
-        #000 99%,
-        #0000 101%
-      )
-      calc(50% - 200px) 0/400px 100%,
-    radial-gradient(223.61px at 50% calc(100% + 200px), #0000 99%, #000 101%)
-      50% calc(100% - 100px) / 400px 100% repeat-x;
-  -webkit-mask: var(--mask);
-  mask: var(--mask);
-}
