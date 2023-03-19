@@ -81,3 +81,21 @@ body {
 .auto-height:focus {
   outline: 2px solid var(--text);
 }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  width: 100%;
+  background: var(--secondary);
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  height: 1.8rem;
+  fill: var(--flamingo);
+  padding-inline: 10px;
+}
