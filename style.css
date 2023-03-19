@@ -16,7 +16,7 @@
 
 body {
   margin: 0;
-  font-family: system ui;
+  font-family: "Roboto", sans-serif, system ui;
   font-size: 1.25rem;
   background: var(--main);
   color: var(--subtext);
@@ -26,10 +26,15 @@ body {
   padding: 2rem;
   text-align: center;
   color: var(--text);
-  background: var(--secondary);
+}
+
+.site-title-span {
+  color: var(--flamingo);
 }
 
 .site-text {
+  font-weight: 500;
+  font-style: italic;
   color: var(--subtext);
 }
 
@@ -41,6 +46,7 @@ body {
   max-width: 60rem;
   margin-inline: auto;
   padding: 2rem 1rem;
+  font-weight: 500;
 }
 
 .convert-btn,
@@ -74,4 +80,17 @@ body {
 
 .auto-height:focus {
   outline: 2px solid var(--text);
+}
+
+.wavy {
+  --mask: radial-gradient(
+        223.61px at 50% calc(100% - 300px),
+        #000 99%,
+        #0000 101%
+      )
+      calc(50% - 200px) 0/400px 100%,
+    radial-gradient(223.61px at 50% calc(100% + 200px), #0000 99%, #000 101%)
+      50% calc(100% - 100px) / 400px 100% repeat-x;
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
 }
