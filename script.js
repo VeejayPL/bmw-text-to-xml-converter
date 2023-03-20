@@ -1,7 +1,7 @@
 // Text area will adjust its height to the pasted text rows
 // This function is assigned to oninput in HTML doc
 function autoHeight(elem) {
-  elem.style.height = "1px";
+  elem.style.height = "250px";
   elem.style.height = elem.scrollHeight + "px";
 }
 
