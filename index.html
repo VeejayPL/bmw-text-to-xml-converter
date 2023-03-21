@@ -15,6 +15,15 @@
     <script src="./script.js" defer></script>
   </head>
   <body>
+    <form class="color-picker" action="">
+      <fieldset>
+        <legend class="visually-hidden">Pick a color scheme</legend>
+        <label for="light" class="visually-hidden">Light</label>
+        <input type="radio" name="theme" id="light" checked />
+        <label for="dark" class="visually-hidden">Dark</label>
+        <input type="radio" id="dark" name="theme" />
+      </fieldset>
+    </form>
     <header class="site-title">
       <h1>BMW <span class="site-title-span">Code Extractor</span></h1>
       <p class="site-text">
