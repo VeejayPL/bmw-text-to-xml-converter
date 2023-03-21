@@ -1,0 +1,22 @@
+{
+  "name": "bmw-text-to-xml-converter",
+  "version": "1.0.0",
+  "description": "BMW code extractor",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeejayPL/bmw-text-to-xml-converter.git"
+  },
+  "author": "VeejayPL - Wojciech Jurkowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VeejayPL/bmw-text-to-xml-converter/issues"
+  },
+  "homepage": "https://github.com/VeejayPL/bmw-text-to-xml-converter#readme",
+  "devDependencies": {
+    "prettier": "^2.8.5"
+  }
+}
