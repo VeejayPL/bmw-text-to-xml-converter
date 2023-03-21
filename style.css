@@ -29,7 +29,6 @@ body {
 }
 
 .site-title {
-  padding-top: 1rem;
   text-align: center;
   color: var(--text);
 }
@@ -47,7 +46,10 @@ body {
   font-style: italic;
   color: var(--subtext);
 }
-
+.wrapper,
+.site-title {
+  padding: 0rem 0.6rem;
+}
 .wrapper {
   flex-grow: 1;
   display: grid;
@@ -55,7 +57,6 @@ body {
   text-align: center;
   width: 100%;
   max-width: 70rem;
-  padding: 0rem 0.6rem;
   font-weight: 500;
 }
 
@@ -78,9 +79,13 @@ body {
   background: var(--text);
 }
 
+.label {
+  padding-block: 0.3rem;
+}
+
 .auto-height {
   width: 100%;
-  height: clamp(250px, 700px, 50vh);
+  height: clamp(250px, 700px, 60vh);
   border: 2px solid var(--surface2);
   background: var(--surface1);
   font-size: 1.2rem;
@@ -94,7 +99,6 @@ body {
 
 .footer {
   width: 100%;
-  padding-block: 0.5rem;
   margin-top: 0.5rem;
   background: var(--secondary);
   font-size: 1rem;
@@ -113,4 +117,77 @@ body {
 .icon:hover {
   transform: scale(1.2);
   fill: var(--green);
+}
+
+/* Color scheme */
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.theme-field > fieldset {
+  border: 0;
+  display: flex;
+  gap: 2rem;
+  width: fit-content;
+  background: var(--secondary);
+  border-radius: 0 0 1rem 1rem;
+  padding: 0.8rem 2rem;
+}
+
+.theme-field input[type="radio"] {
+  appearance: none;
+  width: 1rem;
+  height: 1rem;
+  outline: 2px solid var(--radio-color, currentColor);
+  outline-offset: 2px;
+  border-radius: 50%;
+}
+
+.theme-field input[type="radio"]:checked {
+  background-color: var(--radio-color);
+}
+
+.theme-field input[type="radio"]#light {
+  --radio-color: #eff1f5;
+}
+.theme-field input[type="radio"]#dark {
+  --radio-color: #24273a;
+}
+
+.dark {
+  --main: #24273a;
+  --secondary: #181926;
+  --text: #cad3f5;
+  --subtext: #a5adcb;
+  --surface1: #363a4f;
+  --surface2: #5b6078;
+  --flamingo: #f0c6c6;
+  --green: #a6da95;
+  --mauve: #c6a0f6;
+}
+
+@media (max-width: 900px) {
+  body,
+  .auto-height {
+    font-size: 0.8rem;
+  }
+  .convert-btn {
+    font-size: 1rem;
+  }
+
+  .theme-field > fieldset {
+    padding: 0.8rem 1.5rem;
+  }
+
+  .theme-field input[type="radio"] {
+    width: 0.5rem;
+    height: 0.5rem;
+  }
 }
