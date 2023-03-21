@@ -119,3 +119,13 @@ body {
   transform: scale(1.2);
   fill: var(--green);
 }
+
+@media (max-width: 900px) {
+  body,
+  .auto-height {
+    font-size: 0.8rem;
+  }
+  .convert-btn {
+    font-size: 1rem;
+  }
+}
