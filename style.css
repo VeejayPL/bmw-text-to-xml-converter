@@ -46,7 +46,10 @@ body {
   font-style: italic;
   color: var(--subtext);
 }
-
+.wrapper,
+.site-title {
+  padding: 0rem 0.6rem;
+}
 .wrapper {
   flex-grow: 1;
   display: grid;
@@ -54,7 +57,6 @@ body {
   text-align: center;
   width: 100%;
   max-width: 70rem;
-  padding: 0rem 0.6rem;
   font-weight: 500;
 }
 
@@ -75,6 +77,10 @@ body {
 
 .convert-btn:hover {
   background: var(--text);
+}
+
+.label {
+  padding-block: 0.3rem;
 }
 
 .auto-height {
