@@ -147,6 +147,7 @@ body {
   outline: 3px solid var(--radio-color, currentColor);
   outline-offset: 3px;
   border-radius: 50%;
+}
 
 @media (max-width: 900px) {
   body,
