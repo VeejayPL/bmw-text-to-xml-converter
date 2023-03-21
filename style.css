@@ -29,7 +29,6 @@ body {
 }
 
 .site-title {
-  padding-top: 1rem;
   text-align: center;
   color: var(--text);
 }
@@ -80,7 +79,7 @@ body {
 
 .auto-height {
   width: 100%;
-  height: clamp(250px, 700px, 50vh);
+  height: clamp(250px, 700px, 60vh);
   border: 2px solid var(--surface2);
   background: var(--surface1);
   font-size: 1.2rem;
