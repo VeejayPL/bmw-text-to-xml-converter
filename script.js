@@ -39,3 +39,29 @@ button.addEventListener("click", () => {
     codes
   )}</ns1:saCodes>`;
 });
+
+// Theme switcher
+const colorThemes = document.querySelectorAll('[name="theme"]');
+
+function storeTheme(theme) {
+  localStorage.setItem("theme", theme);
+}
+
+function setTheme() {
+  const activeTheme = localStorage.getItem("theme");
+  colorThemes.forEach((themeOption) => {
+    if (themeOption.id === activeTheme) {
+      themeOption.checked = true;
+    }
+  });
+  document.documentElement.className = activeTheme;
+}
+
+colorThemes.forEach((themeOption) => {
+  themeOption.addEventListener("click", () => {
+    storeTheme(themeOption.id);
+    document.documentElement.className = themeOption.id;
+  });
+});
+
+document.onload = setTheme();
