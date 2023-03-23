@@ -17,7 +17,6 @@
 }
 
 body {
-  position: relative;
   min-height: 100svh;
   margin: 0;
   display: flex;
@@ -147,7 +146,7 @@ body {
   width: 1rem;
   height: 1rem;
   outline: 2px solid var(--radio-color, currentColor);
-  outline-offset: 3px;
+  outline-offset: 2px;
   border-radius: 50%;
 }
 
@@ -155,9 +154,23 @@ body {
   background-color: var(--radio-color);
 }
 
-.theme-field input[type="radio"]#light,
+.theme-field input[type="radio"]#light {
+  --radio-color: #eff1f5;
+}
 .theme-field input[type="radio"]#dark {
-  --radio-color: var(--main);
+  --radio-color: #24273a;
+}
+
+.dark {
+  --main: #24273a;
+  --secondary: #181926;
+  --text: #cad3f5;
+  --subtext: #a5adcb;
+  --surface1: #363a4f;
+  --surface2: #5b6078;
+  --flamingo: #f0c6c6;
+  --green: #a6da95;
+  --mauve: #c6a0f6;
 }
 
 @media (max-width: 900px) {

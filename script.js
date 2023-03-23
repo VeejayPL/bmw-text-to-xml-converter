@@ -31,6 +31,7 @@ function addXmlTag(codes) {
     .join("");
   return xml;
 }
+
 // Assign functions to button and append converted text to textarea
 const button = document.querySelector("#button");
 button.addEventListener("click", () => {
