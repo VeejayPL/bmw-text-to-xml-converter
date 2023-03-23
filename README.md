@@ -8,14 +8,6 @@ You can find below an example of input and the output as well as instructions on
 
 [Live demo](https://veejaypl.github.io/bmw-text-to-xml-converter/)
 
-## Input
-
-![Input image](https://github.com/VeejayPL/bmw-text-to-xml-converter/blob/main/assets/input.png)
-
-## Output
-
-![Output image](https://github.com/VeejayPL/bmw-text-to-xml-converter/blob/main/assets/output.png)
-
 ## Instructions
 
 1. Copy text from your file
@@ -24,3 +16,11 @@ You can find below an example of input and the output as well as instructions on
 4. The codes wrapped with the XML tags will appear in textarea where you have pasted your text
 5. Copy the XML
 6. If you have another file to be converted, simply copy and paste it over the textarea content
+
+## Input
+
+![Input image](https://github.com/VeejayPL/bmw-text-to-xml-converter/blob/main/assets/input.png)
+
+## Output
+
+![Output image](https://github.com/VeejayPL/bmw-text-to-xml-converter/blob/main/assets/output.png)
