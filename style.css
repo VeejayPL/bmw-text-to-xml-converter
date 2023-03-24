@@ -147,7 +147,7 @@ body {
   height: 1rem;
   outline: 2px solid var(--radio-color, currentColor);
   outline-offset: 2px;
-  border-radius: 12px;
+  border-radius: 50%;
 }
 
 .theme-field input[type="radio"]:checked {
