@@ -19,8 +19,8 @@ You can find below an example of input and the output as well as instructions on
 
 ## Input
 
-![Input image](https://github.com/VeejayPL/bmw-text-to-xml-converter/blob/main/assets/input.png)
+![Input image](./assets/input.png)
 
 ## Output
 
-![Output image](https://github.com/VeejayPL/bmw-text-to-xml-converter/blob/main/assets/output.png)
+![Output image](./assets/output.png)
